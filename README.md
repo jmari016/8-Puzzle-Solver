@@ -25,7 +25,24 @@ The Misplaced Tile Heuristic is an algorithm that counts the number of moves nec
 ### *Euclidean Distance Heuristic* 
 This h(n) value is calculated by adding up the distance between any misplaced tile and the correct location the number is supposed to be in (again, not counting the blank). This algorithm performed better than the Uniform Cost Search algorithm but not as good as the Misplaced Tile Heuristic. I believe this Euclidean Distance Heuristic is not as optimal because the size of the puzzle board is relatively small. If the puzzle board would have been of size 15 or more, the possible distance between the misplace tile and the actual tile location increases, which in tail would lead to a more accurate Euclidean Distance size. This would then give a more accurate f(n) value.
 ### *Results*
-![Table of results](https://www.picturepaste.ca/images/2020/06/11/226.png)
+Test cases:  
+![Test cases](https://www.picturepaste.ca/images/2020/06/11/8462.png)
+![Table of results](https://www.picturepaste.ca/images/2020/06/11/226.png)  
+\*I ran the impossible puzzle board using my fastest algorithm and allowed the program to run for an hour and 45 minutes with no results. I abandoned this search as it was taking too long to create all the possibilities. When I quit the program, the number of created nodes was up to 137,000 nodes.\*
 ### *Trace of Sample Problem with A\*, Euclidean Distance Heuristic*
 ![Trace 1](https://www.picturepaste.ca/images/2020/06/11/446531.png)
 ![Trace 2](https://www.picturepaste.ca/images/2020/06/11/1255.png)
+### *Resources*
+I consulted the following sources during the creation of this project:
+* [8 puzzle problem using A* search algorithm in English\ Artificial intelligence tutorial English.](https://www.youtube.com/watch?v=wJu3IZq1NFs)
+* [Solving 8 puzzle with A* search](https://www.youtube.com/watch?v=GuCzYxHa7iA)
+* [8 puzzle problem in AI](https://www.youtube.com/watch?v=uJA0i90uCGE&t=378s)
+* [Uniform Cost Search](https://www.youtube.com/watch?v=dRMvK76xQJI&t=311s)
+* [A* Search](https://www.youtube.com/watch?v=6TsL96NAZCo&t=284s)
+* [A* heuristic calculation with Euclidean Distance](https://stackoverflow.com/questions/16869920/a-heuristic-calculation-with-euclidean-distance)
+* [Binary Search Function Template](http://www.cplusplus.com/reference/algorithm/binary_search/)
+
+
+
+
+
