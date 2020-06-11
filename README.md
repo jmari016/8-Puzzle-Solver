@@ -1,4 +1,4 @@
-# 8-Puzzle-Solver
+# 8 Puzzle Solver
 8-Puzzle solver using uniform cost search and two variant A* search's
 
 University of California, Riverside  
