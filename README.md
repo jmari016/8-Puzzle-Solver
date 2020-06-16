@@ -26,12 +26,12 @@ The Misplaced Tile Heuristic is an algorithm that counts the number of moves nec
 This h(n) value is calculated by adding up the distance between any misplaced tile and the correct location the number is supposed to be in (again, not counting the blank). This algorithm performed better than the Uniform Cost Search algorithm but not as good as the Misplaced Tile Heuristic. I believe this Euclidean Distance Heuristic is not as optimal because the size of the puzzle board is relatively small. If the puzzle board would have been of size 15 or more, the possible distance between the misplace tile and the actual tile location increases, which in tail would lead to a more accurate Euclidean Distance size. This would then give a more accurate f(n) value.
 ### *Results*
 Test cases:  
-![Test cases](https://www.picturepaste.ca/images/2020/06/16/8462.png)
-![Table of results](https://www.picturepaste.ca/images/2020/06/16/226.png)  
+[![8462.png](https://i.postimg.cc/7LwHS6NW/8462.png)](https://postimg.cc/0zX1s9FY)
+[![226.png](https://i.postimg.cc/BvzJkg0d/226.png)](https://postimg.cc/06pgJ7rf)
 \*I ran the impossible puzzle board using my fastest algorithm and allowed the program to run for an hour and 45 minutes with no results. I abandoned this search as it was taking too long to create all the possibilities. When I quit the program, the number of created nodes was up to 137,000 nodes.\*
 ### *Trace of Sample Problem with A\*, Euclidean Distance Heuristic*
-![Trace 1](https://www.picturepaste.ca/images/2020/06/16/446531.png)
-![Trace 2](https://www.picturepaste.ca/images/2020/06/16/1255.png)
+[![446531.png](https://i.postimg.cc/XJ9kms5J/446531.png)](https://postimg.cc/mz29FN8f)
+[![1255.png](https://i.postimg.cc/Kcr55sFp/1255.png)](https://postimg.cc/3WNp81k2)
 ### *Resources*
 I consulted the following sources during the creation of this project:
 * [8 puzzle problem using A* search algorithm in English\ Artificial intelligence tutorial English.](https://www.youtube.com/watch?v=wJu3IZq1NFs)
